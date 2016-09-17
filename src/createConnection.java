@@ -20,12 +20,12 @@ public class createConnection {
 
         // Create property object to hold user name & password
         Properties myProp = new Properties();
-        myProp.put("user", "cosc6340");
-        myProp.put("password", "1pmMon-Wed");
+        myProp.put("user", "xxxxxxxx");
+        myProp.put("password", "xxxxxxxxx");
         
         try {
         	//System.out.println("In try to make connection");
-            conn = DriverManager.getConnection("jdbc:vertica://129.7.242.19:5433/cosc6340", myProp);
+            conn = DriverManager.getConnection("jdbc:vertica://xxxxxxxxx", myProp);
             //System.out.println("In try Connection successful");
             return conn;
         } catch (SQLException e) {
